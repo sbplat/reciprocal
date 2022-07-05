@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reciprocal Solver</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/big.js@6.2.0/big.min.js"></script>
+
+    <script src="js/index.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <h3>Reciprocal Equation Solver</h3>
+    <h4>— Unique Positive Integer Solutions</h4>
+    <form id="equationinfo" name="equationinfo">
+        <img src="images/latex_equation.svg" alt="Latex Equation" /><br><br>
+
+        <label for="nCount">Terms / n</label><br>
+        <input type="number" min="1" id="nCount" name="nCount" placeholder="3" required><br>
+
+        <label for="numerator">Numerator</label><br>
+        <input type="number" min="1" id="numerator" name="numerator" placeholder="2" required><br>
+
+        <label for="denominator">Denominator</label><br>
+        <input type="number" min="1" id="denominator" name="denominator" placeholder="19" required><br>
+
+        <br>
+        <input type="submit" value="Solve!">
+    </form>
+    <h5 id="solutions" name="solutions" />
+</body>
+</html>
