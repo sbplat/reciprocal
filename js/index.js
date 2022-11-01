@@ -65,7 +65,7 @@ function checkSolution(terms) {
         termSum = termSum.plus(inverseTerm)
     }
 
-    if (termSum.toPrecision(decimalPlaces - 2) == input.getFracValue().toPrecision(decimalPlaces - 2)) {
+    if (termSum.toPrecision(decimalPlaces - 5) == input.getFracValue().toPrecision(decimalPlaces - 5)) {
         addSolution(terms)
     }
 }
