@@ -12,7 +12,9 @@ Then, we have the following inequalities:
 ```math
 \begin{aligned}\label{eq:1}
     1=\frac{1}{x_1}+\frac{1}{x_2}\leq\frac{1}{x_1}+\frac{1}{x_1}=\frac{2}{x_1}\implies x_1\leq 2
-\end{aligned}\\
+\end{aligned}
+```
+```math
 \begin{aligned}\label{eq:2}
     1=\frac{1}{x_1}+\frac{1}{x_2}\geq\frac{1}{x_2}+\frac{1}{x_2}=\frac{2}{x_2}\implies x_2\geq 2
 \end{aligned}
