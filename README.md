@@ -21,7 +21,7 @@ Observe that $\ref{eqn:1}$ is extremely crucial, while $\ref{eqn:2}$ is not. Thi
 
 Now, what if $k$ is a rational number? We can still follow the same approach as above to narrow it down. There's only one extra step: we need to make sure the last term ($\frac{1}{x_2}$ in this case) is a reciprocal of a positive integer. If it's not, then it's not a solution.
 
-Finally, what if we had $n=3$ terms and the right hand side $k\in\mathbb{Q}$? We can follow a similar approach and reach the conclusion that $x_1\leq\frac{3}{k}$. Recursively following this approach gives us an algorithm to find all the solutions. You can check out the [implementation here](/js/index.js).
+Finally, what if we had $n=3$ terms and the right hand side $k\in\mathbb{Q}$? We can follow a similar approach and reach the conclusion that $x_1\leq\frac{3}{k}$. Recursively following this approach gives us an algorithm to find all the solutions. You can check out the implementation [here](https://github.com/sbplat/reciprocal/blob/main/js/index.js).
 
 ## How do I run this from source?
 
